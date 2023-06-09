@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Netflix Homepage</title>
+    <style>
+        /* CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        /* Header */
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .banner {
+            height: 500px;
+            background-image: url('https://www.socialketchup.in/wp-content/uploads/2020/11/Mismatched.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+        }
+
+        .movie-list {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .movie-item {
+            width: 200px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .movie-item img {
+            width: 100%;
+            height: auto;
+        }
+        .hh{
+            /* position: absolute; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #pp{
+            font-size: 1.5rem;
+        }
+        #bb{
+            padding :0.8rem;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            background-color: red;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+
+        <h1>Netflix</h1>
+
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="banner">
+            <div class="hh">
+            <h1>Unlimited Movies, TV Shows, and more</h1>
+            <p id="pp">Watch any where. cancel any time</p>
+            <button id="bb">Start your free trail</button>
+        </div>
+
+          
+        </div>
+
+        <!-- Section 1: Trending Movies -->
+        <div class="section">
+            <h2>Trending Movies</h2>
+            <div class="movie-list">
+                <div class="movie-item">
+                    <img src="https://th.bing.com/th?id=OIF.E%2b1TRPfo3AIoIHOLl8PDvQ&pid=ImgDet&rs=1" alt="Movie 1">
+                </div>
+                <div class="movie-item">
+                    <img src="https://interviewerpr.com/wp-content/uploads/2021/08/MONEY-HEIST-SEASON-5-1320x660.jpg" alt="Movie 2">
+                </div>
+                <!-- Add more movie items here -->
+            </div>
+        </div>
+
+        <!-- Section 2: Popular TV Shows -->
+        <div class="section">
+            <h2>Popular TV Shows</h2>
+            <div class="movie-list">
+                <div class="movie-item">
+                    <img src="https://i.zoomtventertainment.com/story/RRR_1.jpg" alt="Show 1">
+                </div>
+                <div class="movie-item">
+                    <img src="https://3.bp.blogspot.com/-6HqHX4tcumk/VZ3xhdEEBHI/AAAAAAAAjU0/6xnDtKR85js/s1600/Bahubali%2BHD%2BWallpaperes%2B8.jpg" alt="Show 2">
+                </div>
+                <!-- Add more show items here -->
+            </div>
+        </div>
+
+        <!-- Add more sections for different categories -->
+
+    </div>
+
+</body>
+</html>
